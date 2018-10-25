@@ -5,12 +5,16 @@
 </template>
 
 <script>
+import HomeHeader from './components/Header'
 export default {
-  name: 'HelloWorld',
+  name: 'Home',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  components:{
+    'header':HomeHeader
   }
 }
 </script>
